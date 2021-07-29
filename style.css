@@ -1,0 +1,65 @@
+body {
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/05/08/40652/dark-03.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.statemap {
+    width: 580px;
+    height: 419px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: white;
+    margin: 10px;
+}
+
+h1 {
+    font-family: Big Space;
+    color: white;
+}
+
+#start {
+    padding: 5px;
+    border: 5px;
+    border-style: inline;
+    border-color: white;
+    font-family: Big Space;
+    font-size: 20px;
+    background-color: cornflowerblue;
+}
+
+#start:hover {
+    background-color: dodgerblue;
+}
+
+#imageslide {
+    height: 65%;
+    border-style: groove;
+    border-width: 5px;
+    border-color: white;
+    margin: 10px;
+}
+
+#description{
+    padding: 5px;
+    font-family: Big Space;
+    font-size: 36px;
+    color: white;
+}
+
+.control{
+    display: none;
+    padding: 5px;
+    border: 5px;
+    border-style: inline;
+    border-color: white;
+    font-family: Big Space;
+    font-size: 20px;
+    background-color: cornflowerblue;
+}
+
+.control:hover {
+    background-color: dodgerblue;
+}
