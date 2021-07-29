@@ -64,11 +64,11 @@ h1 {
     background-color: dodgerblue;
 }
 
-.credits h4{
+.credits{
     color: white;
 }
 
-.credits button{
+.creditsb{
     padding: 5px;
     border: 5px;
     border-style: inline;
@@ -78,6 +78,6 @@ h1 {
     background-color: cornflowerblue;
 }
 
-.credits:hover {
+.creditsb:hover {
     background-color: dodgerblue;
 }
