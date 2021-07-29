@@ -45,7 +45,6 @@ function slideshow() {
             clearInterval(refreshintervalid);
             document.getElementById("imageslide").src = "1200px-Flag_of_India.svg.png";
             document.getElementById("description").innerHTML = "Thank you";
-            document.getElementById("location").innerHTML = "India";
             document.getElementById("exit").style.display = "inline-block";            
         }
     }, 5000);
