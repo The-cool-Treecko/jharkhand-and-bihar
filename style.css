@@ -50,6 +50,20 @@ h1 {
     color: white;
 }
 
+#creditsA{
+    padding: 5px;
+    font-family: Big Space;
+    font-size: 36px;
+    color: white;
+}
+
+#creditsB{
+    padding: 5px;
+    font-family: Big Space;
+    font-size: 36px;
+    color: white;
+}
+
 .control{
     display: none;
     padding: 5px;
