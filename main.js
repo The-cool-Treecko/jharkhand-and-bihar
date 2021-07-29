@@ -33,6 +33,7 @@ function readySlideShowEnvironment(){
     document.getElementById("imageslide").src = array_images[i];
     document.getElementById("description").innerHTML = array_description[i];
     document.getElementById("bgm").play();
+    document.getElementsByClass("credits").style.display = "none";
 
     slideshow()
 }
@@ -82,4 +83,5 @@ function readyManualSlideShow(){
     document.getElementById("next").style.display = "inline-block";
     document.getElementById("previous").style.display = "inline-block";
     document.getElementById("bgm").play();
+    document.getElementsByClass("credits").style.display = "none";
 }
