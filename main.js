@@ -34,6 +34,7 @@ function readySlideShowEnvironment(){
     document.getElementById("description").innerHTML = array_description[i];
     document.getElementById("bgm").play();
     document.getElementsByClass("credits").style.display = "none";
+    document.getElementsByClass("imageslide").style.display = "inline-block";
 
     slideshow()
 }
@@ -84,4 +85,5 @@ function readyManualSlideShow(){
     document.getElementById("previous").style.display = "inline-block";
     document.getElementById("bgm").play();
     document.getElementsByClass("credits").style.display = "none";
+    document.getElementsByClass("imageslide").style.display = "inline-block";
 }
