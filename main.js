@@ -35,8 +35,6 @@ function readySlideShowEnvironment(){
     document.getElementById("bgm").play();
     document.getElementById("creditsA").style.display = "none";
     document.getElementById("creditsB").style.display = "none";
-    document.getElementById("creditsC").style.display = "none";
-    document.getElementById("creditsD").style.display = "none";
     document.getElementById("creditsbutton").style.display = "none";
     document.getElementById("imageslide").style.display = "inline-block";
 
@@ -90,8 +88,6 @@ function readyManualSlideShow(){
     document.getElementById("bgm").play();
     document.getElementById("creditsA").style.display = "none";
     document.getElementById("creditsB").style.display = "none";
-    document.getElementById("creditsC").style.display = "none";
-    document.getElementById("creditsD").style.display = "none";
     document.getElementById("creditsbutton").style.display = "none";
     document.getElementById("imageslide").style.display = "inline-block";
 }
