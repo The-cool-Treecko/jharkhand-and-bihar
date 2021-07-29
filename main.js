@@ -33,12 +33,12 @@ function readySlideShowEnvironment(){
     document.getElementById("imageslide").src = array_images[i];
     document.getElementById("description").innerHTML = array_description[i];
     document.getElementById("bgm").play();
-    document.getElementsById("creditsA").style.display = "none";
-    document.getElementsById("creditsB").style.display = "none";
-    document.getElementsById("creditsC").style.display = "none";
-    document.getElementsById("creditsD").style.display = "none";
-    document.getElementsById("creditsbutton").style.display = "none";
-    document.getElementsById("imageslide").style.display = "inline-block";
+    document.getElementById("creditsA").style.display = "none";
+    document.getElementById("creditsB").style.display = "none";
+    document.getElementById("creditsC").style.display = "none";
+    document.getElementById("creditsD").style.display = "none";
+    document.getElementById("creditsbutton").style.display = "none";
+    document.getElementById("imageslide").style.display = "inline-block";
 
     slideshow()
 }
@@ -88,10 +88,10 @@ function readyManualSlideShow(){
     document.getElementById("next").style.display = "inline-block";
     document.getElementById("previous").style.display = "inline-block";
     document.getElementById("bgm").play();
-    document.getElementsById("creditsA").style.display = "none";
-    document.getElementsById("creditsB").style.display = "none";
-    document.getElementsById("creditsC").style.display = "none";
-    document.getElementsById("creditsD").style.display = "none";
-    document.getElementsById("creditsbutton").style.display = "none";
-    document.getElementsById("imageslide").style.display = "inline-block";
+    document.getElementById("creditsA").style.display = "none";
+    document.getElementById("creditsB").style.display = "none";
+    document.getElementById("creditsC").style.display = "none";
+    document.getElementById("creditsD").style.display = "none";
+    document.getElementById("creditsbutton").style.display = "none";
+    document.getElementById("imageslide").style.display = "inline-block";
 }
